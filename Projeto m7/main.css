@@ -1,0 +1,44 @@
+/* Campos */
+
+#campos{
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    padding: 30px;
+    height: 180px;
+    margin: 100px 500px -70px 550px;
+    border: 5px solid #9d0be0;
+    border-radius: 12px;
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color: #4a026b3a;
+
+}
+
+input:focus, textarea:focus {
+
+    outline-color: #1900ff;
+    outline-style: bold;
+}
+
+
+button:hover {
+
+    color: #fff;
+    background-color: #7818a5;
+}
+
+
+/* Erro */
+
+.erro {
+
+    color: #c40404;
+    margin: 120px 520px 0px 560px;
+    font-size: 15px;
+}
+
+
+/* Acerto */

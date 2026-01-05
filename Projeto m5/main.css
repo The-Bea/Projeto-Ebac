@@ -1,0 +1,221 @@
+/* SEÇÃO SOBRE A LOJA */
+
+/* ESTILO 01 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 5px 5px 0 #5f029c;
+}
+
+body {
+    background-image: url(./Imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header,
+section h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+
+/* ESTILO 02 */
+header {
+    padding: 16px 0;
+    background-color: #059960;
+    color: #ffffff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header nav li:hover {
+    text-decoration: underline;
+}
+
+
+/* ESTILO 03 */
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+/* ESTILO 04 */
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*ESTILO 05 */
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* ESTILO 06 */
+.icons-list img {
+    height: 45px;
+}
+
+.icons-list li {
+    display: inline;
+    margin: 8px;
+}
+
+
+/* ESTILO 07 */
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #14af7e;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+/* ESTILO 08 */
+.store-front {
+    margin-right: 32px;
+}
+
+/* SEÇÃO CONTATO */
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #243f8a;
+    box-shadow: 3px 3px 0 #c8d2eec5;
+}
+
+input:focus, textarea:focus {
+    outline-color: #ff5e00;
+    outline-style: bold;
+}
+
+/* Midias sociais */
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    box-shadow: -1px 6px 5px #a6b7e949;
+}
+
+
+  /* Chás */
+
+.title {
+    text-align: center;
+    background-color: #083809dc;
+    color: #94f791fa;
+}
+
+.subtitle {
+    color: #24d30d;
+}
+
+article {
+    display: block;
+}
+
+.itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.itens article {
+    width: 30%;
+    text-align: center;
+}
+
+.itens article img {
+    height: 180px;
+}
+
+.itens p {
+    text-align: center;
+}
+
+#about, #contact, #products {
+    margin: 0px 25px;
+    background-color: #042005e3;
+    padding: 25px;
+}

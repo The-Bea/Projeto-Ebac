@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>    
+        <h1>Gerenciador de Atividades</h1>
+        <button type="submit">+</button>
+    </header>
+    <form>
+        <div id="atividade">
+            <h2>Adicionar atividade</h2>
+            <input id="nova-atividade" type="text" name="atividade" placeholder="Nome da atividade">
+                <button type="submit">Adicionar Atividade</button>
+                <button id="botao-cancelar" type="reset">Cancelar</button>
+        </div>
+    </form>
+        <ul id="lista-atividades">
+            <li><input type="checkbox" name="tarefa1" id="tarefa1">
+            <label for="tarefa1">tarefa 1</label></li>
+        </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
