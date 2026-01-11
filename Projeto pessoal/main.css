@@ -1,0 +1,24 @@
+form input,
+form select, 
+form textarea {
+    background-color: rgba(255, 255, 238, 0.8)!important;
+    -webkit-backdrop-filter: blur(10px)!important;
+    border-radius: 10px !important;
+    resize: none;
+    box-shadow: 5px 5px 10px #f5d56b;
+}
+
+.modal-content {
+    background-image: url(./imagens/papel.png);
+    background-size: 100% 100% !important;
+    border: none !important;
+    background-color: transparent !important;
+    background-repeat: no-repeat !important;
+    box-shadow: none !important;
+    padding: 20px;
+    box-shadow: 10px 10px #b81818;
+}
+
+.modal-dialog {
+    filter: drop-shadow(45px 45px 40px rgba(0, 0, 0, 0.4)) !important;
+}
